@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papi's Food Truck</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-white">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Papi's Tacos ⭐️</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#Menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#reviews">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- To Menu Button-->
+    <section class = "go_to_menu">
+        <a href="#Menu" class="btn btn-light btn-lg">
+            <i class="fas fa-bars"></i> Check Our Menu
+        </a>   
+    </section>
+            <!-- Logo w/ Photo Carousel -->
+    <section class="hero-container">   
+    <section class="hero-text">
+        <img src="assets/Papistar.png" alt="Papi's Food Truck Logo" class="logo mb-3">
+        <h1 class="display-3">Welcome to Papi's Mobile Taco Truck</h1>
+         <p class="lead">Serving the Best Food on Wheels</p>
+    </section>
+    <section class="hero-image">
+        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/Food.jpeg" class="d-block w-100" alt="Food 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Delicious Tacos</h5>
+                        <p>The best tacos in town!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/tacos.jpeg" class="d-block w-100" alt="Tacos">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Carne Asada Tacos</h5>
+                        <p>A taste like you wouldn't believe!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/nacho.jpeg" class="d-block w-100" alt="Tacos">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Loaded Nachos</h5>
+                        <p>Topped with warm melted cheese!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+</section>
+<!-- Review section-->
+<section id="reviews" class="reviews-section">
+    <div class="container">
+        <h2 class="text-center my-4">Customer Reviews</h2>
+        <div class="row">
+            <!-- Review 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/unknown.jpg" class="card-img-top" alt="Reviewer 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Jessica C</h5>
+                        <p class="card-text">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            "Never fails, AMAZING wish I ordered nore!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/unknown.jpg" class="card-img-top" alt="Reviewer 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mary W</h5>
+                        <p class="card-text">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            "Amazing food and authentic"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/unknown.jpg"  class="card-img-top" alt="Reviewer 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Spencer A</h5>
+                        <p class="card-text">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            "Amazing tacos even at 4:30 AM! Asada tacos are *chefs kiss* ; overall presentation is very nice too "
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Menu -->
+ <h1 class = "menuTitle">Menu</h1>
+ <section id="Menu" class="card-container">
+ <div class = background-greyContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/nacho.jpeg" class="card-img-top" alt="Nachos">
+        <div class="card-body">
+            <h5 class="card-title">Papi's Nachos</h5>
+            <h6>$17.00</h6>
+            <p class="card-text">A plate of crispy nachos topped with melted cheese and your favorite toppings.</p>
+        </div>
+    </div>
+</div>
+<div class = background-redContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/chicken.jpg" class="card-img-top" alt="Chicken">
+        <div class="card-body">
+            <h5 class="card-title">Chicken Fingers and Fries</h5>
+            <h6>$17.00</h6>
+            <p class="card-text">Juicy, tender grilled chicken served with a side of fresh veggies.</p>
+        </div>
+    </div>
+</div>
+    <div class = background-greyContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/tacos.jpeg" class="card-img-top" alt="Tacos">
+        <div class="card-body">
+            <h5 class="card-title">Papi's Tacos</h5>
+            <h6>$12.00</h6>
+            <p class="card-text">Authentic tacos filled with fresh ingredients, wrapped in soft tortillas.</p>
+        </div>
+    </div> 
+    </div>
+</section>
+
+<section class="card-container">
+    <div class = background-redContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/hamburger.jpg" class="card-img-top" alt="Hamburger">
+        <div class="card-body">
+            <h5 class="card-title">Papi's Monster Burger</h5>
+            <h6>$15.00</h6>
+            <p class="card-text">A classic hamburger with all the fixings. Perfectly grilled and served hot.</p>
+        </div>
+    </div>
+</div>
+<div class = background-greyContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/hotdog.jpg" class="card-img-top" alt="Hotdog">
+        <div class="card-body">
+            <h5 class="card-title">Papi's Bacon Wrapped or/ Hotdog</h5>
+            <h6>$15.00</h6>
+            <p class="card-text">Tasty hotdogs served with your choice of toppings.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="card-container">
+    <div class = background-redContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/quesedilla.jpeg" class="card-img-top" alt="Quesadilla">
+        <div class="card-body">
+            <h5 class="card-title">Quesadilla</h5>
+            <h6>$17.00</h6>
+            <p class="card-text">A cheesy quesadilla filled with delicious fillings, grilled to perfection.</p>
+        </div>
+    </div>
+</div>
+<div class = background-greyContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/torta.jpg" class="card-img-top" alt="Torta">
+        <div class="card-body">
+            <h5 class="card-title">Papi's Torta</h5>
+            <h6>$17.00</h6>
+            <p class="card-text">A savory Mexican sandwich with fresh ingredients and flavorful meats.</p>
+        </div>
+    </div>
+</div>
+    <div class = background-redContainer>
+    <div class="card" style="width: 18rem;">
+        <img src="assets/wings.jpg" class="card-img-top" alt="Wings">
+        <div class="card-body">
+            <h5 class="card-title">Wings and Fries</h5>
+            <h6>$17.00</h6>
+            <p class="card-text">Crispy wings with your choice of sauce to add some heat!</p>
+        </div>
+    </div> 
+</div>
+</section>
+
+
+
+<section class="business-section">
+    <section class="location">
+        <div class = "location-info">
+            <h3>Location</h3>
+            <p>485 E Naples Dr</p> 
+            <h3>Business Hours</h3>
+            <ul>
+                <li>Thursday: 11:30 PM - 4:30 AM</li>
+                <li>Friday: 11:30 PM - 4:30 AM</li>
+                <li>Saturday: 11:30 PM - 4:30 AM</li>
+            </ul>
+            <h3>Contact Us</h3>
+            <p>Phone:<a href="tel:+17024802977">702-480-2977</a></p>
+    </div>
+        <div class = "location-map">
+            <img src="assets/map.jpg" alt="Location Map" class="location-img"> 
+        </div>
+    </section>
+    <section class="about-us">
+        <h3>About Us</h3>
+        <div class = "chefs-container">
+            <img src="" alt="chef1">
+            <img src="" alt="chef2">
+        </div>
+        <p>We are a family-run food truck, dedicated to serving the best tacos, nachos, and other delicious Mexican
+             food on the go. Our journey started with a passion for food and the love of sharing it with others. 
+             Come visit us and enjoy our flavorful creations!
+        </p>
+          
+    </section>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
