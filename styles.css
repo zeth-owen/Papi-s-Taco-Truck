@@ -152,6 +152,17 @@ img.logo.mb-3 {
     align-content: center;
 }
 
+.card-container2 {
+    height: auto;
+    width: 63vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 3.5em auto; 
+    align-content: center;
+}
+
 .card {
     border-radius: 10px;
     display: flex;
